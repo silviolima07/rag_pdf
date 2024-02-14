@@ -13,10 +13,10 @@ with st.sidebar:
     st.title("🦙💬 Llama 2 Chatbot")
     st.header('Configurações')
     
-    #uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
+    uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
     
     #if uploaded_file is not None:
-    #pdf_reader = PdfReader(uploaded_file)
+    pdf_reader = PdfReader(uploaded_file)
 
     #text = ""
     #for page in pdf_reader.pages:
