@@ -24,7 +24,7 @@ with st.sidebar:
         
         
         
-    st.write(text)    
+    #st.write(text)    
 """
     add_replicate_api = st.text_input('Entre com o Token da API Replicate', type='password')
     if not (add_replicate_api.startswith('r8_') and len(add_replicate_api)==40):
