@@ -2,7 +2,7 @@ import streamlit as st
 #import replicate
 import os
 
-from pypdf import PdfReader
+from PyPDF2 import PdfReader
 
 # App title
 st.set_page_config(page_title="🦙💬 RAG Llma 2")
