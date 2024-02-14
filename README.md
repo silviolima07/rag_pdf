@@ -1,2 +1,1 @@
-### RAG pdf 
-"# rag_pdf" 
+### RAG pdf
