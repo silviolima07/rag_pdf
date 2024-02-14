@@ -2,7 +2,7 @@ import streamlit as st
 #import replicate
 import os
 
-from streamlit-pdf-viewer import pdf_viewer
+from streamlit_pdf_viewer import pdf_viewer
 
 
 
@@ -13,14 +13,14 @@ with st.sidebar:
     st.title("🦙💬 Llama 2 Chatbot")
     st.header('Configurações')
     
-    uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
+    #uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
     
     #if uploaded_file is not None:
-    pdf_reader = PdfReader(uploaded_file)
+    #pdf_reader = PdfReader(uploaded_file)
 
-    text = ""
-    for page in pdf_reader.pages:
-        text += page.extract_text()
+    #text = ""
+    #for page in pdf_reader.pages:
+    #    text += page.extract_text()
         
         
         
