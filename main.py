@@ -1,7 +1,7 @@
 import streamlit as st
 #import replicate
 import os
-import pdfreader
+
 from pypdf import PdfReader
 
 # App title
