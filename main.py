@@ -4,7 +4,7 @@ import os
 
 # App title
 st.set_page_config(page_title="🦙💬 RAG Llma 2")
-
+"""
 with st.sidebar:
     st.title("🦙💬 Llama 2 Chatbot")
     st.header('Configurações')
