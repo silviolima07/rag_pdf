@@ -16,7 +16,7 @@ with st.sidebar:
     uploaded_file = st.file_uploader("Upload a PDF", type=["pdf"])
     
     #if uploaded_file is not None:
-    pdf_reader = PdfReader(uploaded_file)
+    pdf_reader = pdf_viewer(uploaded_file)
 
     #text = ""
     #for page in pdf_reader.pages:
