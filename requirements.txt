@@ -3,4 +3,3 @@ streamlit
 openai
 llama-index
 nltk
-python==3.11
