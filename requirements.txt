@@ -1,5 +1,5 @@
-python==3.11
-streamlit
-replicate
 pypdf
+streamlit
+openai
 llama-index
+nltk
