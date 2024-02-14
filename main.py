@@ -8,6 +8,16 @@ st.set_page_config(page_title="🦙💬 RAG Llma 2")
 with st.sidebar:
     st.title("🦙💬 Llama 2 Chatbot")
     st.header('Configurações')
+    
+    if uploaded_file is not None:
+    pdf_reader = PdfReader(uploaded_file)
+
+    text = ""
+    for page in pdf_reader.pages:
+        text += page.extract_text()
+        
+        
+    st.write(text)    
 """
     add_replicate_api = st.text_input('Entre com o Token da API Replicate', type='password')
     if not (add_replicate_api.startswith('r8_') and len(add_replicate_api)==40):
